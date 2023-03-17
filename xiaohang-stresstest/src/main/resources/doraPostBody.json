@@ -1,0 +1,136 @@
+{
+  "channel": "EXPLORE",
+  "dekuRequest": {
+    "source": "explore_tabs",
+    "currency": "CNY",
+    "searchRequest": {
+      "source": "explore_api_v2",
+      "userAgent": "PostmanRuntime/7.1.1",
+      "guests": 1,
+      "page": 1,
+      "perPage": 18,
+      "offset": 0,
+      "howMany": 18,
+      "roomTypes": [],
+      "propertyTypeIds": [],
+      "amenityIds": [],
+      "amenityIdsToFilterOut": [],
+      "cancelPolicyIds": [],
+      "selectedHosting": 0,
+      "vatRate": 0,
+      "nativeCurrency": "CNY",
+      "uuid": "eea4c01c-c626-4f56-a825-cc9a349b11b3",
+      "priceRangeMax": 1000,
+      "priceRangeMin": 10,
+      "responseFields": [
+        "avgGbmScore",
+        "reviewCounts",
+        "avgDisplayedRatings"
+      ],
+      "tierIds": [
+        0,
+        1
+      ],
+      "currencyConversionFromUSD": 1.0,
+      "soaMigrationParams": {
+        "priceMinNative": null,
+        "priceMaxNative": null
+      },
+      "fetchFacets": true,
+      "minResults": 5,
+      "experimentIds": [
+      ],
+      "userIsEmployee": true,
+      "guestWithGovernmentId": true,
+      "requestCountry": "CN",
+      "requestTldCountry": "CN",
+      "language": "zh",
+      "locale": "zh",
+      "adults": 1,
+      "children": 0,
+      "infants": 0,
+      "apiClient": "MAIN_SITE",
+      "autoIb": true,
+      "filterCauseOnly": false,
+      "forceGeocodeWithLocation": false,
+      "guestFromSeoTraffic": false,
+      "guestFromSemTraffic": false,
+      "incEngineChannel": "unknown"
+    },
+    "selectedTab": "HOMES",
+    "supportedDisplayTypes": [
+      "TABBED_GRID"
+    ],
+    "supportedItems": [
+      "EXPERIENCE",
+      "HOME",
+      "DESTINATION",
+      "RECOMMENDATION_ITEM",
+      "MEMORY",
+      "REFINEMENT",
+      "INFORMATIONAL_CARD",
+      "STATIC_DESTINATION",
+      "SELECT_LOW_INVENTORY_TEXT",
+      "INSERT",
+      "MESSAGE",
+      "LIST_HEADER",
+      "CONTEXTUAL_SEARCH",
+      "HOME_TOUR_VIDEO",
+      "STORIES"
+    ],
+    "supportedMetadataItems": [
+      "HOME_FILTERS",
+      "FILTER_ORDERING",
+      "FILTER_COUNTS"
+    ],
+    "tabs": [
+      "ALL",
+      "EXPERIENCES",
+      "HOMES",
+      "SELECT_HOMES",
+      "RESTAURANTS",
+      "PLACES"
+    ],
+    "timezone": "Asia/Shanghai",
+    "nearby": false,
+    "experienceRequest": {
+      "itemsPerGrid": 20
+    },
+    "guidebookRequest": {
+      "itemsPerGrid": 20
+    },
+    "experiments": [
+    ],
+    "mobileApp": false,
+    "recommendationItemShowMeetup": true,
+    "screenSize": "medium",
+    "refinement": {
+      "vertical": "homes",
+      "relativePath": null
+    },
+    "guidedSearch": true,
+    "query": "beijing",
+    "refinementPaths": [
+      "/homes"
+    ],
+    "queryUnderstandingEnabled": false,
+    "uuid": "eea4c01c-c626-4f56-a825-cc9a349b11b3",
+    "vacationRentalsRequest": false,
+    "luxuryRequest": false,
+    "supportedFilterSuggestionTypes": [
+      "ROOM_TYPES",
+      "BEDS",
+      "BEDROOMS",
+      "AMENITIES",
+      "INSTANT_BOOK",
+      "PRICE_MIN",
+      "PRICE_MAX"
+    ],
+    "forceGeocodeWithLocation": false,
+    "isDevelopment": false
+  },
+  "shouldHydrate": true,
+  "format": "default",
+  "version": "1.3.5",
+  "disasterId": null
+}

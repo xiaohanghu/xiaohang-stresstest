@@ -1,0 +1,20 @@
+//artifactId 'xiaohang-stresstest'
+
+//mainClassName = 'com.hu.xiaohang.HelloWorld'
+
+// tag::repositories[]
+// end::repositories[]
+version '1.0.0-SNAPSHOT'
+
+// tag::jar[]
+// end::jar[]
+
+dependencies {
+
+    implementation(
+            'commons-logging:commons-logging:1.1.1',
+            'com.alibaba:fastjson:1.2.8.sec01',
+    )
+
+}
+// end::dependencies[]
