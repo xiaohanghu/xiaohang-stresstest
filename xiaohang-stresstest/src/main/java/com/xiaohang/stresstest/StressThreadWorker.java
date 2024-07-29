@@ -63,9 +63,8 @@ class StressThreadWorker implements Runnable {
 				failedCounter.incrementAndGet();
 				// throw e;
 			} finally {
-				long stop = System.nanoTime();
-				long limit = stop - start;
-				everyTimes.add(limit);
+				long takes = System.nanoTime() - start;
+				everyTimes.add(takes);
 			}
 		}
 		threadEndLatch.countDown();
